@@ -1,0 +1,124 @@
+[
+    {
+        "title": "RELICS",
+        "keywords": [
+            "relics",
+            "artifacts",
+            "relic",
+            "gear"
+            
+        ],
+        "url": "characters/relics.html",        
+        "image": "assets/images/tips/Fu-Yuin.jpg"
+    },
+    {
+        "title": "ZHU",
+        "keywords": [
+            "limited",
+            "5 star",
+            "fire",
+            "damage",
+            "dps",
+            "Zhu",
+            "zhu",
+            "character"
+        ],
+        "url": "characters/Zhu.html",
+        "ImageAlt": "Image of Zhu splash art. ",
+        "image": "assets/images/Characters/Zhu/Zhu.png"
+    },
+    {
+        "title": "QINLONG-YUANJIN",
+        "keywords": [
+            "limited",
+            "5 star",
+            "water",
+            "breaker",
+            "crowd control",
+            "character"
+        ],
+        "url": "characters/qinlong-yuanjun.html",
+        "describtion": "Image of QINLONG",
+        "image": "assets/images/Characters/Qinlong-Yuanjun/Qinlong-Yuanjun.jpg"
+    },
+    {
+        "title": "FUYUN",
+        "keywords": [
+            "limited",
+            "5 star",
+            "water",
+            "support",
+            "crowd control",            
+            "character"
+        ],
+        "url": "characters/Fuyun.html",
+        "image": "assets/images/Characters/Fuyun/Fuyun.jpg"
+    },
+    {
+        "title": "Yu Ying",
+        "keywords": [
+            "standard",
+            "5 star",
+            "fire",
+            "support",
+            "crowd control",            
+            "character"
+        ],
+        "url": "characters/yu-ying.html",
+        "image": "assets/images/Characters/Yu-Ying/Yu-Ying-hero-img.jpg"
+    },
+    {
+        "title": "Chen Xiao",
+        "keywords": [
+            "standard",
+            "5 star",
+            "earth",
+            "breaker",            
+            "character"
+        ],
+        "url": "characters/chen-xiao.html",
+        "image": "assets/images/Characters/chen-xiao/chen-xiao-hero.jpg"
+    },
+    {
+        "title": "Zhai Xi",
+        "keywords": [
+            "standard",
+            "5 star",
+            "dark",
+            "support",           
+            "character"
+        ],
+        "url": "characters/zhai-xi.html",
+        "image": "assets/images/Characters/Zhai-Xi/Zhai-Xi-hero-img.jpg"
+    },
+    {
+        "title": "Changmingsuo",
+        "keywords": [
+            "limited",
+            "5 star",
+            "dark",
+            "dps",
+            "damage",            
+            "character",
+            "Suo"
+        ],
+        "url": "characters/changmingsuo.html",
+        "ImageAlt": "Image of Changminsuo.",
+        "image": "assets/images/Characters/Changmingsuo/changmingsuo-pv.jpg"
+    }, 
+    {
+        "title": "Wuchang",
+        "keywords": [
+            "limited",
+            "5 star",
+            "water",
+            "dps",
+            "damage",            
+            "character",
+            "fly"
+        ],
+        "url": "characters/Wuchang.html",
+        "ImageAlt": "Image of Wuchang.",
+        "image": "assets/images/Characters/Wuchang/Wuchang-pv.jpg"
+    }    
+]

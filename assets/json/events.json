@@ -1,0 +1,79 @@
+[
+    {
+        "title": "VERSION 1.2",
+        "keywords": [
+            "version",
+            "1.2",
+            "version 1.2",
+            "update",
+            "news",
+            "new version"
+        ],
+        "url": "news-and-events/version-1.2.html",
+        "image": "assets/images/version 1.2.jpg"
+    },
+    {
+        "title": "DEVELOPER MESSAGE",
+        "keywords": [
+            "developer notice",
+            "news",
+            "message"
+        ],
+        "url": "news-and-events/developer-message-1.2.html",
+        "image": "/assets/images/developer-image.jpg"
+    },
+    {
+        "title": "VERSION 1.2",
+        "keywords": [
+            "version",
+            "1.2",
+            "version 1.2",
+            "update",
+            "news",
+            "new version",
+            "notice"
+        ],
+        "url": "news-and-events/update-notice-1.2.html",
+        "image": "assets/images/news-and-events/version-1.2/Wuchang-art.jpg"
+    },
+    {
+        "title": "DUAL-PERSON PUZZLE EVENT",
+        "keywords": [
+            "1.2",
+            "version 1.2",
+            "event",
+            "news",
+            "puzzle event",
+            "limited event"
+        ],
+        "url": "news-and-events/event-1.2-dual-person.html",
+        "image": "assets/images/glc-event-puzzle-1.2.jpg"
+    },
+    {
+        "title": "VERSION 1.3",
+        "keywords": [
+            "1.3",
+            "version 1.3",
+            "new version",
+            "news",
+            "patch",
+            "new patch"
+        ],
+        "url": "news-and-events/version-1.3.html",
+        "image": "assets/images/news-and-events/version-1.3/ver-1.3-main.jpg"
+    },
+    {
+        "title": "Resounding Years",
+        "keywords": [
+            "1.3",
+            "version 1.3",
+            "event",
+            "new event",
+            "1.3 event",
+            "New Year event"
+        ],
+        "url": "news-and-events/version-1.3-event-resounding-years.html",
+        "image": "assets/images/news-and-events/version-1.3/Resounding-Years/Resounding-Years-img.jpg"
+    }
+
+]

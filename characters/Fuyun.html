@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- keywords -->
+    <meta name="keywords" content="GLC, Guilongchao, Zhu" />
+
+    <!-- website description -->
+    <meta name="description"
+        content="Gui Long Chao, the 3D side-scrolling action game set in the vibrant Kowloon Street" />
+
+    <!-- Author -->
+    <meta name="author" content="Kafka" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Highlight -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <!-- Fonts end -->
+
+
+
+    <!-- Google Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- tab icon -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/icons/Zhu-icon.png" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+
+    <link rel="stylesheet" href="../assets/styles/themes.css">
+
+    <!-- Custom JavaScript -->
+    <script src="../assets/scripts/script.js" async></script>
+
+    <!-- Title -->
+    <title>FUYUN</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR TOP STICKY and left NAVBAR ------------------------------------------------>
+    <nav class="navbar">
+        <a id="home" href="../index.html"><img src="/assets/images/icons/home (1).png">
+        <a href="/about.html">ABOUT</a>
+        <a href="/terms-of-use.html" >TERMS</a>
+        <a href="#" onclick="myFunction()" class="right"><span class="material-symbols-outlined">
+            menu
+        </span></a>
+        <!-- Global search bar -->
+        <form action="/search-results.html" method="get">
+            <input type="text" name="query" placeholder="Search here!" required />            
+        </form>
+        <!-- Bar ends -->        
+    </nav>
+
+    <div class="row">
+        <div class="side" id="MySidebar">
+            <h2>归龙潮 - Guilongchao</h2>
+            <!-- Nav image -->
+            <div class="img-container element img-border-red">
+                <img src="../assets/images/main-character/c5d9074146e65ff99aa27525d074a849.png">
+                <p><strong>归龙潮</strong> - <a href="https://space.bilibili.com/3461576967326521" target="_blank"
+                        class="label-red text-color-wh">Oficial Page </a> </p>
+            </div><br>
+            <!-- Nav image ends -->
+
+            <div class="aside-menu">
+                <!-- Navigation starts-->
+                <ul>
+                    <hr>
+                    <h3>ABOUT THE GAME</h3>
+          <li><a href="">Lore</a></li>
+          <li><a href="">Images</a></li>
+          <li><a href="">Additional links and sources</a></li>
+          <li><a href="../news-and-events\index.html" class="active-link-side">News and Events</a></li>
+                    <li><a href="">Voice actors</a></li>
+          <hr>
+          <h3>GAMING TIPS</h3>
+          <li><a href="../tips\index.html">General Tips</a></li>
+                    <li><a href="../tips\installation-guide.html">Installation</a></li>
+                    <li><a href="../tips\translation.html">Translation</a></li>
+          <li><a href="../tips/gacha.html">Gacha</a></li>
+          <li><a href="../tips/movement.html">Movement</a></li>
+          <li><a href="../tips/combat.html">Combat</a></li>
+          
+          <hr>
+          <h3>BUILDING GUIDES</h3>
+                    <li><a href="../characters/index.html" class="active-link-side" target="_blank">Characters</a></li>
+                    <li><a href="../characters/relics.html">Relics</a></li>
+                    <li><a href="../characters/tier-list.html">Tier list</a></li>
+                    <li><a href="">Items</a></li>
+                    <hr>
+                    <div class="highlight">
+                        <li><a href="../contacts.html">Contact me</a></li>
+                        <li><a href="../acknowledgements.html">Acknowledgements</a></li>
+                        <li><a>Terms of use</a></li>
+                    </div>
+                    <hr>
+
+                    <!-- Contacts with icons -->
+                    <div class="container-flex-row fx-container-around icon-box">
+                        <div class="item box"><a href="https://x.com/guiIongchao" target="_blank"><img
+                                    src="/assets/images/icons/socials/twitter.png"></a></div>
+                        <div class="item box"><a href="https://www.reddit.com/r/GuilongchaoGame/" target="_blank"><img
+                                    src="/assets/images/icons/socials/reddit.png"></a></div>
+                        <div class="item box"><a href="mailto:chanceslucky003@gmail.com" target="_blank"><img
+                                    src="/assets/images/icons/socials/mail.png"></a></div>
+                    </div>
+                </ul>
+                <!-- Navigation ends -->
+            </div>
+        </div>
+        <!-- NAVBAR ends here -->
+
+
+        <!-- MAIN Content starts here -->
+        <div class="main wrap">
+            <div>
+                <h1>FUYUN</h1>
+                <h5>Fuyun kit and building guide</h5>
+                <h6 class="highlight small">By Kafka (layout and code), <u><a href="https://x.com/typicallygema"
+                            target="_blank" class="inner-link">Gema</a></u>,
+                    <u><a href="https://x.com/zhaixii" target="_blank" class="inner-link">Chelo</a></u>,
+                    <u><a href="https://x.com/HDaunting" target="_blank" class="inner-link">Alkane</a></u>
+                    (translation); November, 2024
+                </h6>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun.jpg" alt="A portrait of Zhu">
+                </div>
+                <div class="element">
+                    <div class="banner-sml highlight">
+                        <p class="description"><span class="label-red">Fuyun</span> is a 5★ rarity character from the
+                            Light element who's role is Support. </p>
+                        <p><span class="label-red">Attribute</span> - Light</p>
+                        <p><span class="label-red">Height</span> - 180 cm</p>
+                        <p><span class="label-red">Birthday</span> - July, 23th</p>
+                        <p> <span class="label-red">Ocupation</span> - da-shixiong of Wen Shu Lion Dance Troupe</p>
+                        <br>
+
+                        <h2>CV</h2>
+                        <div class="banner-sml">
+                            <p><a class="label-red text-color-wh"
+                                    href="https://zh.moegirl.org.cn/%E8%8B%8F%E5%B0%9A%E5%8D%BF" target="_blank">Su
+                                    Shangqing 西呱双</a></p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="note highlight regular">
+                    <p><strong>Note!</strong> There may be localization errors and will be edited when official EN
+                        localization is published</p>
+                </div>
+            </div>
+
+            <!-- Section starts -->
+            <section>
+                <h2>GENERAL KIT</h2>
+                <br>
+                <h3>Talent: Lion’s Awakening</h3>
+                <p>
+                    When Lion’s Roar in All Directions is activated, the entire team gains the <span
+                        class="label-red text-color-wh">Guiding Light</span> effect.</p>
+                <p>Activating Awakened Lion Descends the Mountain or Lion Roars to Calm the World consumes <span
+                        class="label-red text-color-wh">Lion’s Might</span>.</p>
+                <p><span class="label-red text-color-wh">Lion’s Might</span> regenerates automatically by 1 point every
+                    second, up to a maximum of 100 points.</p>
+                <p>Activating <span class="label-red text-color-wh">Lion’s Roar</span> in All Directions consumes all
+                    <span class="label-red text-color-wh">Lion’s Might</span> and increases the effect of White Lion
+                    Armor based on the <span class="label-red text-color-wh">Lion’s Might</span> used (2% per point).
+                </p>
+                <p>When <span class="label-red text-color-wh">Lion’s Might</span> is full, Fuyun will automatically
+                    enter “Calm Lion Stance.”</p>
+                <p><span class="label-red text-color-wh">Guiding Light</span>: Increases his own damage reduction,
+                    lasting 12 seconds.</p>
+            </section>
+            <!-- section ends -->
+
+            <!-- section starts -->
+            <section>
+                <h3>Normal Attack: Lion Form Fist</h3>
+                <p>Fuyun performs a powerful series of up to five consecutive strikes on the target, dealing
+                    Light-element damage.</p>
+                <div>
+                    <img class="img-border-red" src="../assets/images/Characters/Fuyun/normal-atk.gif"
+                        alt="Zhu's normal attack">
+                </div>
+                <br>
+                <h3>Skill: Lion’s Roar in All Directions</h3>
+                <p>Tap: Fuyun raises the lion’s head, dealing Light-element damage to surrounding enemies.</p>
+                <p>Hold: Fuyun raises the lion’s head and releases a loud roar, dealing heavy area Light-element damage
+                    to enemies and activating his White Lion Armor, which boosts his defense, lasting 12 seconds.</p>
+                <div>
+                    <img class="img-border-red" src="../assets/images/Characters/Fuyun/skill.gif"
+                        alt="Zhu's normal attack">
+                </div>
+                <br>
+
+                <h3>Entrance Skill: Awakened Lion Descends the Mountain</h3>
+                <p>When entering the battlefield, Fuyun summons the lion’s soul, causing a shockwave from his position
+                    and dealing damage to all surrounding enemies. Nearby enemies also have their movement speed
+                    reduced.</p>
+
+                <div>
+                    <img class="img-border-red" src="../assets/images/Characters/Fuyun/special-skill.gif"
+                        alt="Zhu's normal attack">
+                </div>
+                <br>
+
+                <h3>Ultimate Skill: Lion Roars to Calm the World</h3>
+                <p>Fuyun channels the lion’s spirit, emitting a powerful shockwave from his position and dealing massive
+                    Light-element damage to surrounding enemies. This skill consumes all Lion’s Might, and a single
+                    target can only be hit once by each shockwave.</p>
+
+                <div>
+                    <img class="img-border-red" src="../assets/images/Characters/Fuyun/ultimate.gif"
+                        alt="Zhu's normal attack">
+                </div>
+                <br>
+            </section>
+            <!-- Section ends -->
+
+            <section>
+                <h2>BUILDING GUIDE</h2>
+                <!-- weapon container container -->
+                <div class="banner-container element">
+                    <div class="banner-sml">
+                        <h3>SPECIAL DRAGON SPELL </h3>
+                        <h5>"Rich and Noble World"</h5>
+                    </div>
+                    <div class="img-banner theme-gray-bordered no-border-top">
+                        <div class="fx-container-hr img-caption">
+                            <div class="img-icon-con"><img class="img-icon img-border-round"
+                                    src="../assets/images/Characters/Fuyun/Fuyun-dragon-spell.png" alt="relic set icon">
+                            </div>
+                            <div class="vertical">
+                                <p><span class="label-red text-color-wh">General Effect</span>
+                                    <strong>Benevolence</strong>: Increases Fuyun's DEF by <strong
+                                        class="text-color-cyan">8.2%</strong>. When casting Skill, this effect further
+                                    increases Fuyun's DEF by <strong class="text-color-cyan">16.4%</strong>, lasting for
+                                    <strong class="text-color-cyan">6</strong> seconds. </p>
+                                <p><span class="label-red text-color-wh">Special Effect</span>
+                                    <strong>Benevolence</strong>On "Illuminating the Eyes" state, based on Fuyun's DEF,
+                                    it'll increases Crit DMG of all team. Every <strong
+                                        class="text-color-cyan">1</strong> point of DEF increases Crit DMG by <strong
+                                        class="text-color-cyan">0.01%</strong>. The a cap limit is <strong
+                                        class="text-color-cyan">16.8%</strong> Crit Damage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- weapon container ends -->
+
+
+            </section>
+
+            <section>
+                <h2>SKILL LEVELING PRIORITY</h2>
+                <p class="banner-sml highlight">Talent > Skill > Ultimate > On-field Skill > Normal-Attack</p>
+                <div>
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-skills-priority.jpg"
+                        alt="character skills">
+                </div><br>
+            </section>
+
+            <section>
+                <h2>RECOMMENDED RELICS</h2>
+
+                <!-- Relic container -->
+                <div class="banner-container element">
+                    <div class="banner-sml">
+                        <h3>Fluffy Snow</h3>
+                    </div>
+                    <div class="img-banner theme-bl-and-white-bordered no-border-top">
+                        <div>
+                            <img class="border-btm" src="../assets/images/relics/fluffy-snow-bg.jpg"
+                                alt="relic set icon">
+                        </div>
+                        <div class="fx-container-hr img-caption">
+                            <div class="img-icon-con"><img class="img-icon img-border"
+                                    src="../assets/images/relics/fluffy-snow.jpg" alt="relic set image"></div>
+                            <div class="vertical">
+                                <p><strong>2 pc</strong>: Increase defence by 19%</p>
+                                <p><strong>4 pc</strong>: Increase shield strength by 20%. After creating shield, those
+                                    protect by shield have their damage increase by 12%, last for 10 seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- relic container ends -->
+                <h3>Main stats:</h3>
+                <ul class="gap-left">
+                    <li>Shoes: DEF % bonus</li>
+                    <li>Bag: DEF % Bonus</li>
+                    <li>Accessories: Shield % bonus</li>
+                </ul>
+                <h3>Sub stats:</h3>
+                <p class="banner-sml highlight">DEF % bonus > Extra DEF > ER % Bonus > HP % bonus</p>
+                <br>
+
+                <!-- Relic container -->
+                <div class="banner-container element">
+                    <div class="banner-sml">
+                        <h3>Concealing Talent</h3>
+                    </div>
+                    <div class="img-banner theme-bl-and-white-bordered no-border-top">
+                        <div>
+                            <img class="border-btm" src="../assets/images/relics/consealing-talent.png"
+                                alt="relic set icon">
+                        </div>
+                        <div class="fx-container-hr img-caption">
+                            <div class="img-icon-con"><img class="img-icon img-border"
+                                    src="../assets/images/relics/consealing-talent-mod.png " alt="relic set image">
+                            </div>
+                            <div class="vertical">
+                                <p><strong>2 pc</strong>: Energy Recharge increased by 18%</p>
+                                <p><strong>4 pc</strong>: When using skill, recharge 15% of energy for ultimate, effect
+                                    could be triggered once every 18 seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- relic container ends -->
+                <h3>Main stats:</h3>
+                <ul class="gap-left">
+                    <li>Shoes: DEF % bonus</li>
+                    <li>Bag: DEF % Bonus</li>
+                    <li>Accessories: Shield % bonus</li>
+                </ul>
+                <h3>Sub stats:</h3>
+                <p class="banner-sml highlight">Recharge % bonus > Crit DMG > Crit Rate > ATK % bonus</p>
+                <!-- relic container ends -->
+            </section>
+
+            <section>
+                <h2>QUICK START GUIDE</h2>
+                <p><strong class="label-red text-color-wh">Strategy tips</strong> -
+                    <strong>Fu Yun "Lion's Might" has two mechanisms:</strong> - When "Lion's Might" is fully charged,
+                    it will refresh the Skill. Therefore, Director can cast Skill according to the situation. If "Lion's
+                    Might" is about to reach 100, you can tap + hold to cast Skill.
+                </p>
+                <p>Only by holding down the Skill will consume "Lion's Might". Director needs to grasp the release
+                    timing of tapping and holding down the Skill.</p>
+
+                <h3>SKILL COMBOS:</h3>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-tips-skils.jpg"
+                        alt="FQinlong combos">
+                </div>
+                <p class="banner-sml highlight">On-Field Skill > Ultimate > Hold down the Skill > Switch character
+                </p>
+
+            </section>
+
+            <section>
+                <h2>TEAMS</h2>
+                <div class="banner-sml highlight">
+                    <div class="character-group">
+                        <div class="card-row">
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Zhu-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Qinlong-Yuanjun-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Fuyun-mod.jpg">
+                            </div>
+                        </div>
+                        <div class=" character-text">
+                            <p>- Zhu + Qinlong Yuanjun + Fuyun</p>
+                        </div>
+                    </div>
+
+                    <div class="character-group">
+                        <div class="card-row">
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Zhu-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Chen-Xiao-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Fuyun-mod.jpg">
+                            </div>
+                        </div>
+                        <div class=" character-text">
+                            <p>- Zhu + Chen-Xiao + Fuyun</p>
+                        </div>
+                    </div>
+
+
+                    <div class="character-group">
+                        <div class="card-row">
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/YaoYao-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Qinlong-Yuanjun-mod.png">
+                            </div>
+                            <div class="character-card-sm">
+                                <img src="../assets/images/Characters/Fuyun-mod.jpg">
+                            </div>
+                        </div>
+                        <div class="character-text">
+                            <p>- YaoYao + Qinlong-Yuanjun + Fuyun</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="note highlight regular">
+                    <p><strong>Note!</strong> Teams suggetions are taken from the official game guides!</p>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>GALLERY</h2>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-splash.jpg"
+                        alt="Fuyun splash art">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-chen-xiao.jpg"
+                        alt="Fuyun and Chen Xiao">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-pv.jpg" alt="Fuyun PV image">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-story.jpg"
+                        alt="Fuyun story image">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-img.jpg"
+                        alt="Fuyun eith the lion dance costume image">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-skin.jpg"
+                        alt="Fuyun eith the lion dance costume image">
+                </div>
+                <div class="img-container">
+                    <img class="img-border" src="../assets/images/Characters/Fuyun/Fuyun-img-2.jpg"
+                        alt="Fuyun eith the lion dance costume image">
+                </div>
+
+            </section>
+
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Guilongchao Website, 2024</p>
+        <h6>Your Friendly Platform for Game Walkthroughs and Strategy Guides</h6>
+    </footer>
+
+</body>
+
+</html>

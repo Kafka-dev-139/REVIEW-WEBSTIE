@@ -1,0 +1,87 @@
+[
+    {
+        "title": "GENERAL TIPS",
+        "keywords": [
+            "gameplay",
+            "combat",
+            "gacha",
+            "movement",
+            "tips",
+            "how to"
+        ],
+        "url": "tips/index.html",
+        "image": "assets/images/tips/shop.jpg"
+    },
+    {
+        "title": "COMBAT",
+        "keywords": [
+            "gameplay",
+            "combat", 
+            "fighting",           
+            "tips",
+            "how to"
+        ],
+        "url": "tips/combat.html",
+        "image": "assets/images/tips/combat.gif"
+    },
+    {
+        "title": "GACHA",
+        "keywords": [
+            "gameplay",
+            "gacha", 
+            "pulling",           
+            "tips",
+            "how to"
+        ],
+        "url": "tips/gacha.html",
+        "image": "assets/images/tips/gacha.jpg"
+    },
+    {
+        "title": "INSTALLATION GUIDE",
+        "keywords": [
+            "gameplay",
+            "install", 
+            "instalation",   
+            "download", 
+            "cn game",
+            "install the game",
+            "from bilibili",    
+            "tips",
+            "how to"
+        ],
+        "url": "tips/installation-guide.html",
+        "image": "assets/images/main/directors-and-others.jpg"
+    },
+    {
+        "title": "TRANSLATION GUIDE",
+        "keywords": [
+            "gameplay",
+            "translate", 
+            "translation",   
+            "from Chinese", 
+            "OCR",
+            "language",
+            "MORT", 
+            "Translumo",   
+            "tips",
+            "how to"
+        ],
+        "url": "tips/translation.html",
+        "image": "assets/images/Suo-watching.png"
+    },
+    {
+        "title": "MOVEMENT",
+        "keywords": [
+            "gameplay",
+            "move", 
+            "movement",   
+            "keys",               
+            "tips",
+            "how to"
+        ],
+        "url": "tips/movement.html",
+        "image": "assets/images/tips/movement.gif"
+    }
+
+    
+]
