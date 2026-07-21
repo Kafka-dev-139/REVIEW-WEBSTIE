@@ -60,11 +60,16 @@ mark {
   padding: 0;
 }
 
+.img-border-yellow {
+  border: 3px solid var(--yellow);
+  padding: 0;
+}
+
 .inner-link {
   color: var(--red);
 }
 
-/* color */
+/* color -------------------------------------*/
 .label-red {
   background-color: var(--red);
   padding: 7px;
@@ -72,6 +77,11 @@ mark {
 
 .label-cyan {
   background-color: var(--cyan);
+  padding: 7px;
+}
+
+.label-yellow {
+  background-color: var(--yellow);
   padding: 7px;
 }
 

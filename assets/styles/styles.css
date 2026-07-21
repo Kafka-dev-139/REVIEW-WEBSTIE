@@ -12,6 +12,7 @@
   --purple: #5c3661;
   --red: #a7292f;
   --cyan: #148a94;
+  --yellow: #fca311;
 }
 
 html {
@@ -134,8 +135,6 @@ hr {
 .container-flex-row {
   display: flex;
 }
-
-
 
 .row-rewerse {
   flex-direction: row-reverse;
@@ -286,7 +285,7 @@ iframe {
 
 /* Sticky navbar */
 .navbar {
-  border: solid 1px var(--white);
+  border: solid 3px var(--white);
   overflow: hidden;
   background-color: #333;
   position: sticky;
@@ -299,6 +298,7 @@ iframe {
 .navbar a {
   float: left;
   display: block;
+  border-right: solid 3px var(--white);
   color: var(--pure-white);
   text-align: center;
   padding: 14px 20px;
